@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivaldi Menu</title>
+
+</head>
+
+<body>
+    <div id="menu">
+        <h1>{{fileName}} </h1>
+        <input type="file" @change="loadJson" accept=".json" />
+        <select name="selected" v-model="menuSelected" @change="showMenu">
+            <option :value="index" v-for="menu,index in menus">{{ $t( menu.action ) }}</option>
+        </select>
+        <select name="selected" v-model="cmdSelected" @change="searchMenu">
+            <option :value="cmd" v-for="cmd in commands">{{ $t(cmd) }}</option>
+        </select> 
+  
+       <div>
+            <button v-for="item in  filterMenus" @click="gMenu(item)">
+                <template v-if="Array.isArray(item.action)">
+                    <template v-for="action,i in item.action">
+                        {{ i>0?'>'+$t(action):$t(action)}}
+                    </template>
+                </template>
+                <template v-else>{{ $t(item.action) }}</template>
+            </button>
+        </div>
+        <div class="menu">
+            <template v-for="item in currentMenus.menu">
+                <template v-if="item.cmd ==currentMenus.action">
+                    <div class="item selected" :class="item.type">{{ $t(item.action) }}</div>
+                    <template v-if="item.type=='folder'&& Array.isArray(item.action)">
+                        {{ item.children }}
+                        <template v-for="i in item.children">
+                            <div class="item" :class="i.type">{{ $t(i.action) }}</div>
+                        </template>
+                    </template>
+                </template>
+                <template v-else >
+                    <div class="item" :class="item.type">{{ $t(item.action) }}</div>
+                </template>
+               
+            </template>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="https://unpkg.com/vue@next"></script>
+<script src="https://unpkg.com/vue-i18n@next"></script>
+<script src="./main.js"></script>
+<style>
+    :root{
+        --colorBorder: #cdcdcd;
+        --colorHighlightBg: #4c70f0;
+        --radius:4px;
+        --colorHighlightBgUnfocused:#e7e7e7;
+    }
+    select {
+        padding: 0 24px;
+        vertical-align: middle;
+        height: 28px;
+    line-height: 1.4;
+    box-shadow: 0 0 0 3px rgb(0 110 215 / 0%);
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--colorBorder);
+    border-radius: var(--radius);
+
+    background-image:  
+    linear-gradient(55deg, White 43%, transparent 45%),
+     linear-gradient(125deg, transparent 53%,White 55%), 
+     linear-gradient(180deg,  White  30%, #333333 30%);
+    background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: right 4px;
+  background-color: White;
+  
+}
+ select:focus-visible {
+    border-color: var(--colorHighlightBg);
+    outline-color:var(--colorHighlightBg); ;
+    box-shadow: 0 0 0 1px var(--colorHighlightBg);
+}
+
+
+    .menu {
+        border: 1px solid rgb(218, 220, 224);
+        max-width: 300px;
+        box-shadow: 2px 2px 2px 0px rgba(61, 61, 61, 0.63);
+    }
+
+    .selectedCmd {
+        border: 1px solid red;
+    }
+
+    .item {
+        height: 24px;
+        line-height: 24px;
+        padding: 0 2rem;
+        font-size: 12px;
+        user-select: unset;
+        cursor: context-menu;
+    }
+
+    .item.folder:after {
+        border: 5px solid white;
+        border-left-color: grey;
+        content: '';
+        float: right;
+        margin: 7px -28px 0 0;
+    }
+
+    .item:hover,.selected {
+        background-color: rgb(232, 232, 233);
+    }
+
+    .item.folder:after:hover {
+        border-color: rgb(232, 232, 233);
+        border-left-color: grey;
+    }
+
+    .separator {
+        height: 1px;
+        line-height: unset;
+        margin: 3px 0;
+        background-color: rgb(218, 220, 224);
+    }
+
+    .separator:hover {
+        background-color: rgb(218, 220, 224);
+    }
+</style>
+
+</html>
