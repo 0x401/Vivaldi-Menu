@@ -1,0 +1,177 @@
+:root {
+    --colorBgLightIntense: #fff;
+    --colorBgIntense: #fff;
+    --colorBg: #f6f6f6;
+    --colorFg: #333333;
+    --colorBorder: #cdcdcd;
+    --colorHighlightBg: #4c70f0;
+    --radius: 4px;
+    --colorHighlightBgUnfocused: #e7e7e7;
+}
+
+:focus {
+    outline: none;
+}
+body{
+    font-family: 'Segoe UI','SF',  sans-serif;
+}
+button,
+input {
+    appearance: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--colorBorder);
+    border-radius: var(--radius);
+    vertical-align: middle;
+}
+
+input[type=radio] {
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset;
+    background-color: var(--colorBgIntense);
+    margin: unset;
+}
+
+input[type=radio]:checked:before {
+    transition-timing-function: cubic-bezier(0, 0, 0.3, 1.5);
+    transition-duration: 100ms;
+    transform: scale(1);
+}
+
+input[type=radio]:before {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    transition: transform 50ms linear;
+    border-radius: 4px;
+    background-color: var(--colorHighlightBg);
+    transform: scale(0);
+}
+
+button:hover {
+    background-image: linear-gradient(var(--colorBg), var(--colorBg));
+    border-color: var(--colorHighlightBg);
+    box-shadow: 0 0 0 1px var(--colorHighlightBg);
+}
+
+label {
+    display: inline-flex;
+    vertical-align: center;
+    gap: .5rem;
+}
+
+select {
+    padding: 0 24px;
+    vertical-align: middle;
+    height: 28px;
+    line-height: 1.4;
+    /* box-shadow: 0 0 0 3px rgb(0 110 215 / 0%); */
+    appearance: none;
+    /* border-width: 1px; */
+    /* border-style: solid; */
+    border-color: var(--colorBorder);
+    border-radius: var(--radius);
+
+    background-image:
+        linear-gradient(55deg, White 43%, transparent 45%),
+        linear-gradient(125deg, transparent 53%, White 55%),
+        linear-gradient(180deg, White 30%, #333333 30%);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: right 4px;
+    background-color: White;
+
+}
+
+select:focus {
+    border-color: var(--colorHighlightBg);
+    box-shadow: 0 0 0 1px var(--colorHighlightBg);
+}
+
+section {
+    margin: 1rem 0;
+    display: flex;
+    gap: .5rem;
+}
+
+#menu {
+    width: 800px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.filterMenu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu {
+    border: 1px solid rgb(218, 220, 224);
+    width: 300px;
+    box-shadow: 2px 2px 2px 0px rgba(61, 61, 61, 0.63);
+}
+
+.submenu {
+    position: absolute;
+    margin: -28px 0 0 298px;
+    background: #fff;
+}
+
+.selectedCmd {
+    border: 1px solid red;
+}
+
+button {
+    height: 28px;
+    padding: 0 18px;
+    color: var(--colorFg);
+    /* fill: currentColor; */
+    background-image: linear-gradient(var(--colorBgLightIntense) 0%, var(--colorBg) 100%);
+}
+
+.item {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 2rem;
+    font-size: 12px;
+    user-select: unset;
+    cursor: context-menu;
+}
+
+.item.folder:after {
+    border: 5px solid white;
+    border-left-color: grey;
+    content: '';
+    float: right;
+    margin: 7px -28px 0 0;
+}
+
+.item:hover,
+.selected {
+    background-color: rgb(232, 232, 233);
+}
+
+.item.selected:after,
+.item.folder:hover:after {
+    border-color: var(--colorHighlightBgUnfocused);
+    border-left-color: grey;
+}
+
+
+.separator {
+    height: 1px;
+    line-height: unset;
+    margin: 3px 0;
+    background-color: rgb(218, 220, 224);
+}
+
+.separator:hover {
+    background-color: rgb(218, 220, 224);
+}

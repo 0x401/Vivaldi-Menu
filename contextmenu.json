@@ -1,0 +1,3122 @@
+[
+  {
+    "type": "control",
+    "format": "1",
+    "version": "1",
+    "deleted": []
+  },
+  {
+    "action": "tab",
+    "guid": "7c1face9-16e9-42a2-8eda-671a113db9ec",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_NEW",
+        "guid": "9945d549-51d1-4f99-b1fe-54f1aea683ee",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5db253e2-f8e9-4244-902d-945285d6692e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_RELOAD",
+        "guid": "4082b116-2670-4825-b0e0-fc910a5b2251",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLONE",
+        "guid": "ff2808b4-6201-49db-a89a-1607b9efbd85",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_PIN",
+        "guid": "e01fb3b8-0987-470e-b006-04b28b8043c1",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNPIN",
+        "guid": "731b3e77-c5fe-447e-8b8d-2616d927aa9c",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_MOVE",
+        "guid": "2ae3d55f-4487-4cb6-aaeb-d733a8818a44",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_MOVE_LEFT",
+            "guid": "62c4431e-6a97-4e98-b373-d40e231fd410",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_MOVE_RIGHT",
+            "guid": "416ff50e-3c1a-4e50-a089-d12b71624ef2",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "7e478672-4459-468d-aac9-8b34185bcb3c",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_MOVE_TO_WINDOW",
+            "guid": "a5222e16-5341-4c87-893f-727a579a3edd",
+            "type": "container",
+            "mode": "inline"
+          }
+        ]
+      },
+      {
+        "action": "CONTEXT_CONTAINER_PERIODIC_TIMER",
+        "guid": "55548686-976c-4fdc-b468-2d4c7cbff159",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "719e12e6-7f75-4224-8a0c-77975199abdd",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_MUTE",
+        "guid": "6d5ac89c-c1f0-4c36-839e-40b9a87ae818",
+        "type": "checkbox"
+      },
+      {
+        "action": "CONTEXT_MUTE_OTHER",
+        "guid": "8f6c6848-f7df-47c5-9694-59ca661741c9",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e618b9a9-08a8-49f0-9be7-5c2290ea94fd",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPTIMIZE_FS_VIDEOS",
+        "guid": "64a5d08d-afe1-4c24-833c-e9d09e2f131d",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "93b10b72-6fe3-43a9-acba-8ae4a2260356",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK",
+        "guid": "485dc1c0-4cca-4943-8cc7-bfe033be457b",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK_STACK",
+        "guid": "096c68c6-8086-4074-90ae-5471446dfbc6",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK_ALL",
+        "guid": "1d8c0cc9-17a1-4fc3-9280-9fdb3ab47586",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SAVE_SESSION",
+        "guid": "8fd06bcc-4a25-4bb9-a388-cca2d4cb4462",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5aae0f1a-27f3-4058-8d2a-4348248e9299",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_BY_SELECTION",
+        "guid": "68be2e69-8a8c-4247-922a-6e062a13a5d6",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_BY_HOST",
+        "guid": "62591397-59e2-46d5-8f85-295e0d16582a",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_BY_HOSTS",
+        "guid": "96A4D45D-52FF-4AC8-B038-D440289CAE91",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_RENAME",
+        "guid": "c1d46e83-dbc9-49da-bfa7-e9ece67d1249",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_MOVE",
+        "guid": "5d4c3775-602e-4a62-b708-9bbf94efd9d3",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_MOVE_STACK_LEFT",
+            "guid": "b0b959c2-ce77-445c-8dc5-c72b1374c78a",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_MOVE_STACK_RIGHT",
+            "guid": "297c0ff6-8252-48bc-afc6-15cf95c89fbe",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "27e01e90-beaa-482b-a928-6491c3867b23",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_MOVE_TO_WINDOW",
+            "guid": "23564568-33d5-4497-8c59-2bc115dd11de",
+            "type": "container",
+            "mode": "inline"
+          }
+        ]
+      },
+      {
+        "action": "CONTEXT_TABSTACK_REMOVE_FROM",
+        "guid": "95b0c4d3-3e5a-4736-ba7f-85ed825da181",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_UNGROUP",
+        "guid": "d9e01358-cf6c-4032-9b4e-bc94fc17072c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "a3ee9853-48be-4931-b7cc-36f749ac5644",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_TILE_TABSTACK",
+        "guid": "401be428-16a4-420b-9508-4d67fd3355fa",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNTILE_TABSTACK",
+        "guid": "61eb4fe9-6655-4b71-a124-52feced738eb",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TILE_TABS",
+        "guid": "1908038d-5cde-4706-bea3-d590e31edbc5",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNTILE_SELECTION",
+        "guid": "b1ef39b3-0898-4a8d-839c-af47af132b6a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8af246c1-23a9-4522-b34a-9cf37fb6814e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_HIBERNATE_TAB",
+        "guid": "cf37e5a1-bcfd-408b-a6e2-d0e26725697b",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_HIBERNATE_SELECTED_BACKGROUND_TABS",
+        "guid": "4b621460-002b-48ec-aadf-5797c6fc9f73",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_HIBERNATE_TABSTACK",
+        "guid": "49124c44-6b92-47da-a7af-5f3218c0f411",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_HIBERNATE_BACKGROUND",
+        "guid": "200e03da-5d74-4348-85df-378e48d4763b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "1aa86790-ec4a-4745-a002-e1c7a8767a15",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CLOSE",
+        "guid": "ffe666b0-b8d8-46c8-806a-6ba2f4296608",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLOSE_TABSTACK",
+        "guid": "897ec516-a6fe-4a0a-99aa-011fcb56ffb0",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLOSE_OTHER",
+        "guid": "82f5feda-0f92-4eaf-affd-26c154d1f5fe",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLOSE_LEFT",
+        "guid": "7974faa6-da9d-4246-a1f8-52159c56579f",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLOSE_RIGHT",
+        "guid": "f0d73f4f-ac5a-4577-8257-0251e8f4ae17",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "3e558e08-e38e-443c-a5e4-2a638dd1792d",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_REOPEN",
+        "guid": "9fe90007-62ab-423f-82d8-2129e4b6e390",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "62395474-ca79-41ac-a3f4-ddfe6109cd67",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_PWA",
+        "guid": "46c9d7ba-19fe-433c-bbf6-d2d4fdb7c39f",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "41359ae5-6cd4-48f0-9806-8408b49728ad",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUSTOMIZE",
+        "guid": "3168a717-af9f-434a-b1ea-670e430d02ad",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "tabstackthumbnails",
+    "guid": "5b77e76a-0617-4787-834a-203423ad31e1",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CLOSE",
+        "guid": "348695ec-c5da-487d-88b9-d04a460214ef",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "242328e5-84fe-4aa5-a877-fa4eafdd7840",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_REMOVE_FROM",
+        "guid": "f82151d0-e255-40b8-8d58-be1f7f8da955",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "tabbar",
+    "guid": "9d201654-7ff0-40f9-b5c1-980b4cf24c75",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_NEW",
+        "guid": "f006503f-0280-4813-bf2e-3a6d855ad82c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "a599c4fd-a0c0-44ec-b747-33024991b819",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_REOPEN",
+        "guid": "4f63ba9c-bd37-4ff1-a77d-49f65fa68d0e",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "faf35fde-071a-4f23-be4f-9585a21e5388",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK_ALL",
+        "guid": "57c9cbd3-7640-4d94-9cb6-2bd1db9682e8",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SAVE_SESSION",
+        "guid": "50cefa31-fd8a-40b4-9572-67cfc839a669",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "3d7009b7-a5f9-4ae4-ad59-c3eeb4e557e4",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_TOGGLE_SUBSTRIP_LOCK",
+        "guid": "0c9032c0-7db8-4ee6-af51-82801612540a",
+        "type": "checkbox"
+      }
+    ]
+  },
+  {
+    "action": "bookmarkbar",
+    "guid": "dbb63c4d-3f99-4ffe-8168-b801a9727839",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_BOOKMARK",
+        "guid": "bb2f10f1-d5f4-48d4-8ce5-b64d8bb73ce9",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "42d94bd2-4f33-43bf-9796-323b5b8d9592",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_BOOKMARK",
+        "guid": "4f9bdda9-7529-4243-a449-24259498bc92",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_FOLDER",
+        "guid": "9f76e6b9-25d8-4a2e-90c8-0fbcff155af2",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_SEPARATOR",
+        "guid": "5974fa8c-4739-4859-b257-f700abcd9155",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d1b361b1-5bd1-4aa5-a072-c01e26f6da7f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_SORT",
+        "guid": "ddc43ef7-71a6-45ce-bedb-9a6c07c2be54",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "2a7d8b16-59e6-4187-8a81-cd63b8c9cd5f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "aace914a-08d8-4bf2-ae4e-27652160a616",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "bookmarkbaritem",
+    "guid": "42f4cde8-10aa-4076-824b-f7f8b3fa3a0a",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_TAB",
+        "guid": "93d9192b-de73-4ff7-88e9-710b25b9a863",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+        "guid": "15e86e19-6474-42c1-a4f4-5eb93b8a070e",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_TAB",
+        "guid": "37217703-1274-40c1-abd3-04cfb3c37c6a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "4fb90184-85b2-4cff-980f-2fc98545894a",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+        "guid": "e4d450da-38cd-4d0c-9a1e-1887e8e2bb87",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+        "guid": "76be0c76-8149-420c-8955-0fb95483c7a2",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "9cfe9252-58c2-4d77-b666-70ad315dba9c",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK",
+        "guid": "26366560-5f52-47b6-b399-398075a164bb",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "25006b2f-2ad3-4fd6-a9d3-dc95cae75756",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_BOOKMARK",
+        "guid": "074e4577-eac0-4f51-9930-3cfcc3129c0a",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_FOLDER",
+        "guid": "61b41171-eb91-4405-b993-e8ffaaefbb7d",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_SEPARATOR",
+        "guid": "45923d67-223c-443b-b094-aab3b3066f4a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "afb3359f-9a6d-4d1e-9034-38e27f1ad1b8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EDIT",
+        "guid": "99032912-9eae-4de1-be85-2fc159826e5a",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "39f12cb1-3749-4d99-bc56-48fc45577c4e",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "cecc8ad4-2f59-43f4-a2ed-eafb37972e0a",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUT",
+        "guid": "d6e92905-229d-4480-9f7b-8cf643715b34",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "39cb1be7-b56b-4aac-9bb5-dead20517300",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "cb69e16a-0d7e-4138-bb31-5878122b6274",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8107a1af-1536-460e-bc58-35e643894666",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "a9f91c1c-296e-45df-9a8a-e3222cb7b422",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "closedtab",
+    "guid": "fdf87db0-7a8a-43c6-908d-cd688c08ccfd",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_CLOSED_TAB",
+        "guid": "1754ae6b-b046-4c31-b43a-bfc213aa0de3",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "panelbar",
+    "guid": "89ac35af-5277-4032-92d2-7663b541b9c5",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_REG_PANELS",
+        "guid": "025d52bd-d344-4302-b157-fe52aec39c92",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "fd7fc153-bc59-40c8-a2f1-2ee26dca7da8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_WEB_PANELS",
+        "guid": "f696140a-7275-4849-a73b-c4eb18269f49",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "d325922c-45fd-4a5c-b853-bde33294624f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_REMOVED_PANELS",
+        "guid": "da2cc038-30b3-4f72-8236-3d9de7adb04b",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "panelbarregitem",
+    "guid": "d4b81148-dfe0-433c-92f7-7b977dc0dc3c",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_SEPARATE_WIDTH",
+        "guid": "07953674-e5f7-4d79-877f-5d6cfa46d967",
+        "type": "checkbox"
+      },
+      {
+        "action": "",
+        "guid": "076801d0-7382-4171-8ff9-bc006b18f3e6",
+        "type": "separator"
+      },
+      {
+        "action": "MENU_PANEL",
+        "guid": "d0ad4b8a-651b-40a8-a8ff-be7877748d13",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_CONTAINER_REG_PANELS",
+            "guid": "1edbf8c7-fda0-4003-86da-10918b58815a",
+            "type": "container",
+            "mode": "inline"
+          },
+          {
+            "action": "",
+            "guid": "48fc36d2-2c11-47b5-ac14-4930197f1872",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_WEB_PANELS",
+            "guid": "b732664c-10d5-4400-a1c4-c3b12b52973b",
+            "type": "container",
+            "mode": "inline"
+          },
+          {
+            "action": "",
+            "guid": "a7565553-d392-4d31-a104-2b29a7006043",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_REMOVED_PANELS",
+            "guid": "78d88265-af97-4e43-8f97-a670d8e43606",
+            "type": "container",
+            "mode": "folder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "panelbaritem",
+    "guid": "9112f8a0-8dc6-4783-b682-a03d0d977bb6",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_MENU_OPEN",
+        "guid": "5a125b76-6a3a-48ee-a65b-018fc0d3e7d0",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_TAB",
+            "guid": "d18e5bdf-ed04-40a7-af68-7f654c7be15d",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+            "guid": "42ad469c-a262-4fc4-b323-a0a655561b34",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_TAB",
+            "guid": "2a7b6f6b-a3fa-4b28-a56b-6d593915283a",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "5926550d-4b5c-4815-ac98-442944f3adb5",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+            "guid": "65d41d8f-30d5-47cf-a590-9d9e81176522",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+            "guid": "59f8d532-68a4-4e4d-9299-7d764a1539ae",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "action": "CONTEXT_COPY_ADDRESS",
+        "guid": "5b1ab530-294b-434f-8449-74d075f8d573",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_PERIODIC_TIMER",
+        "guid": "e70dd43f-cc96-4ef3-85af-18472c10364e",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "9d83098a-ab42-49bc-86e0-c845242f2289",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DESKTOP_VERSION",
+        "guid": "9c778a95-c741-45af-a246-f33b3af3b508",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_MOBILE_VERSION",
+        "guid": "79f63259-6077-485b-aa34-ada3d780da49",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SEPARATE_WIDTH",
+        "guid": "fddae36b-81e6-43bb-b456-e31b607f0782",
+        "type": "checkbox"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_TOOLBAR",
+        "guid": "a9a8b69d-932b-421b-89c7-c5bd00dc540e",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "a1a44029-0d52-4f3d-b216-a9992895c2d7",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_REMOVE_WEB_PANEL",
+        "guid": "a1b5843d-7975-4f70-bef5-6a0a700af0f5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "c71dcc4a-1d3f-455b-966c-c1316b6243a5",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_MENU_PANEL",
+        "guid": "03ef6ca3-d3e4-4d5c-be42-d8762728d91f",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_CONTAINER_REG_PANELS",
+            "guid": "2b799931-8758-4e4d-b8d7-8e34119e7f21",
+            "type": "container",
+            "mode": "inline"
+          },
+          {
+            "action": "",
+            "guid": "857be11e-d8f9-4181-99cc-3970c1eb3a36",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_WEB_PANELS",
+            "guid": "ac535613-48b9-413d-8018-ef4e9da37bb8",
+            "type": "container",
+            "mode": "inline"
+          },
+          {
+            "action": "",
+            "guid": "458572ac-5234-4786-986f-8ff091973553",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_REMOVED_PANELS",
+            "guid": "e5267093-6376-4397-84c9-5f1afbd25696",
+            "type": "container",
+            "mode": "folder"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "action": "backwardbutton",
+    "guid": "b61dcf02-3402-4258-94d6-15fb601f77c9",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_BACKWARD_HISTORY",
+        "guid": "296ba84c-bf9f-4e81-81e2-5988b324c2b5",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "d68c1fc6-6408-47a8-af34-3e9bb99c63e4",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "7bb517f6-0325-4281-ae04-daf94881c535",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "forwardbutton",
+    "guid": "fadaf7fc-d4f2-4cdc-a912-b6708e86ab07",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_FORWARD_HISTORY",
+        "guid": "c97f5f94-db86-447a-b140-bfffbfec9084",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "d8ee130e-0276-495f-b81e-283a5dfe8036",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "a90106cd-038f-4f4b-83e3-99dcb63cef51",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "rewindbutton",
+    "guid": "b6f206ee-9d06-4b2e-9773-8ac0e191db10",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_BACKWARD_HISTORY",
+        "guid": "30ac7fe9-cc90-44b8-9c74-c7a12d5c28ae",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "af65ea7d-9409-4080-87b4-cf2dbf0ef909",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "0ab96b8e-7b30-4f72-9b52-bcccd8abcd02",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "fastforwardbutton",
+    "guid": "d3f08c24-0abc-417b-aa50-04c385f4f2b6",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "95afca5e-3513-4846-8d57-c82f41fe4d4c",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "reloadbutton",
+    "guid": "eb9e8ee3-3624-4cef-b296-bd9515760c65",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "147195b9-0507-46e0-a5cd-9d1415807f23",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },
+  {
+    "action": "homebutton",
+    "guid": "0e259b41-5761-4c89-ad15-c5d2f343a88b",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_CONTAINER_CUSTOMIZE_TOOLBAR",
+        "guid": "23f179b7-7a8b-4967-8d0e-b4a682774ffd",
+        "type": "container",
+        "mode": "inline"
+      }
+    ]
+  },{
+    "action": "speeddialitem",
+    "guid": "19c04c48-2773-428f-a5d6-9a47397ec4b1",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_TAB",
+        "guid": "fadd1949-7251-4e12-a4b7-5b3198b37d59",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+        "guid": "d01f48ee-b8d8-4291-ad60-94bd08fe8d8c",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_TAB",
+        "guid": "0d748b56-13d5-4da7-a693-33032e64d922",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "336cc9d0-b2fb-4fef-be6b-5e751996c85e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+        "guid": "b9f11cd6-47b1-43b4-8274-4dbc876a8cba",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+        "guid": "a74fb5bf-9e34-4e0d-9036-86edb55a4fcf",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "370d2203-3c09-4986-8890-7657e873e900",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPEN_ALL",
+        "guid": "9ee39251-6253-4e25-a520-d1f60f3102ac",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "348365dc-5367-406f-9652-b2c55b11226e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SET_THUMBNAIL",
+        "guid": "f4acf287-e1bd-4316-8381-31cae3749dfd",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLEAR_THUMBNAIL",
+        "guid": "4fc28dee-195e-4e79-82a6-507c4e690aa7",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_RELOAD",
+        "guid": "1f3f0088-be54-4484-a86e-fff1336ac572",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "4d1f41ee-d632-4aea-bf14-85a9781d3251",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EDIT",
+        "guid": "de9b69f2-a976-42c1-bb83-5ffc70198292",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "66a05f0c-ef74-4736-87c9-5a61fa9cbca0",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "bb388f91-5a78-421a-8e83-a028b270a42f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUT",
+        "guid": "67b49d23-e3ee-4053-bb96-bcd6d6180348",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "b1165c0c-38bc-402c-93ec-d7c26d630bb5",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "200edd5a-d634-41bc-8f70-62c280142faf",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "f9eeb36e-a938-4221-8b99-58f66d964613",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "4a73474d-bd69-45b2-af93-358c4250c0e5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "451892c4-82ca-4878-a5f3-03d2585d16cc",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_TOGGLE_STARTPAGE_NAVIGATION",
+        "guid": "14bc8800-d506-4f12-94f1-464126ed18ec",
+        "type": "checkbox"
+      }
+    ]
+  }, {
+    "action": "startpage",
+    "guid": "e16b0f85-8826-499e-890a-8864281c1657",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_ADD_BOOKMARK_TO_SPEEDDIAL",
+        "guid": "ffe70085-6567-43d2-b5c6-94d015443b35",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_ADD_FOLDER_TO_SPEEDDIAL",
+        "guid": "8e52cdd7-391d-4d57-b869-034d78609ad0",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "c314ab17-6d48-4126-9a05-8f946d244fbe",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "f4e1bff6-c13e-4b86-b714-5c7868fee017",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e11bcb23-8584-431c-a2a2-365e9ffde006",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "02c406f1-1f29-43ab-8a0b-bffab54a83d3",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "87ce7bc0-4615-449a-a8ff-2c0fc1ca9a03",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUSTOMIZE",
+        "guid": "1f708b6a-de39-42b4-b448-e8742db359b3",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_TOGGLE_STARTPAGE_NAVIGATION",
+        "guid": "5ba9c237-0c92-4074-b922-a8ac42925948",
+        "type": "checkbox"
+      }
+    ]
+  }, {
+    "action": "startpagebar",
+    "guid": "1383190f-a20d-48da-bbc9-e3087e08df56",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "fc01ad34-7c5f-4504-8564-a837fde1101b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0ab3fe14-49ed-46d4-9864-ec7bb0146182",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_REMOVE",
+        "guid": "b8961718-418b-4e06-a4a3-864c68a230fe",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8671afd4-72f9-42df-a236-8145120d8d77",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_TOGGLE_STARTPAGE_NAVIGATION",
+        "guid": "a69515fc-4fc3-4bea-ab9e-73719fb25e1d",
+        "type": "checkbox"
+      }
+    ]
+  }, {
+    "action": "mailsearchlist",
+    "guid": "5a727459-e2a6-4948-b1ff-091df0c2d5d8",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_EDIT",
+        "guid": "7ab24614-3b16-4992-bcf1-1b927a49fc61",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SEND",
+        "guid": "6e8b3a9a-1675-42ed-863a-d34d48db2919",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8e6a3302-4dd1-433e-a493-cc572a56904d",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_MAIL_REPLY",
+        "guid": "a9a2aafb-2f1a-479f-b216-ed84f9727b69",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_MAIL_REPLY_ALL",
+        "guid": "0ce5c2ee-27c0-49a3-a756-4b1988adea00",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_MAIL_FORWARD",
+        "guid": "b2bf1865-c17a-476b-b1e9-079398e84a78",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "79bfc306-946d-4dc5-a307-53920b738521",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_MAIL_MARK_READ",
+        "guid": "54ffb9de-5820-49a3-bb56-ea3d79298639",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_MAIL_MARK_UNREAD",
+        "guid": "9e5a15b3-4018-43aa-a4f6-da78472f4f49",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_GOTO",
+        "guid": "3fcd8f91-dfdc-4aff-9851-dd7a8e2de6ad",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_GOTO_NEXT_UNREAD",
+            "guid": "66be4179-f543-4e1d-9384-78632ed1b540",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_GOTO_PREVIOUS_UNREAD",
+            "guid": "256f5e20-b679-4f91-aa1a-e59d6fe85984",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_MARK_READ_AND_GOTO_NEXT_UNREAD",
+            "guid": "6b4adb3a-e978-4eed-a2f6-c3d27e6bce8f",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "action": "",
+        "guid": "b5eb62ef-1ab4-4b9d-98ac-508ab45eaf8e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_MOVE",
+        "guid": "ca010e56-f898-4073-93c4-f294c27801b0",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "2b1be3b4-3b4d-47ce-9353-ad91f651a6c8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_ADD_FLAG",
+        "guid": "ff378e6a-2bfb-4f91-9cf0-059dd508de6a",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_REMOVE_FLAG",
+        "guid": "688cc4e8-ca93-4e64-8fa7-30e4206c6286",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_FLAGS",
+        "guid": "a58de59e-bb4d-44b5-baed-df5810056e97",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_LABELS",
+        "guid": "0bf26ffe-c4ce-43e9-9ee0-f8ec0bbf643b",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "310aa993-d984-41dd-bf62-c7a752a72420",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_MARK_AS_SPAM",
+        "guid": "b0ec1306-1ca0-45c3-a69d-af3f46d71602",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NOT_SPAM",
+        "guid": "dfbf8a5b-5487-4eaa-8080-b9e7d3c13bbd",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_TRASH",
+        "guid": "68b3a046-8b85-4ba5-839e-54445a3c55cc",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "5f642c79-a8aa-44c8-b885-7f2b173fcc5a",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SENDER",
+        "guid": "c8129964-825a-4098-9514-08d146599987",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_ENABLE_SENDER_VIEW",
+            "guid": "8e698b1d-7b16-4e52-bd75-71a29a48e695",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_SENDER_IS_MAILING_LIST",
+            "guid": "933708f2-7038-432e-b78a-87cc91dc54c0",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "action": "CONTEXT_THREAD",
+        "guid": "dbdcbd14-1a26-4486-a8d1-ba383999675c",
+        "type": "folder",
+        "children": [
+          {
+            "action": "COMMAND_MAIL_ENABLE_THREADED_VIEW",
+            "guid": "4ad3f46a-e28c-4fb9-83a1-ab6dd78a4220",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_MARK_THREAD_READ",
+            "guid": "bce0e0ab-f87f-4603-9af3-fe0432c06d07",
+            "type": "command"
+          },
+          {
+            "action": "COMMAND_MAIL_MARK_THREAD_UNREAD",
+            "guid": "e8464f3f-6756-454a-9ce6-032d35e13ec3",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "action": "",
+        "guid": "9a93f62c-649b-465d-95d4-aaa9adf67098",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPAND_ALL",
+        "guid": "058d503f-b10e-4bae-859c-33bb1b311059",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COLLAPSE_ALL",
+        "guid": "57541716-ec62-4d04-85db-95a2a52b322b",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "bookmarklist",
+    "guid": "76475278-a393-4b1c-8b9e-a4b20a14ea75",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_TAB",
+        "guid": "253eb96d-1ba3-4c0d-845f-996d63e8b1ad",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+        "guid": "319f5187-efb8-43c7-8c50-d8ea62fbf521",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_TAB",
+        "guid": "e5873a39-8d88-4ae5-b84f-e5dc87e6982c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "35cc8efa-3cdd-4af3-a285-a58a07fe6c37",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+        "guid": "8d7bbc90-9a10-4c58-abda-faeb127d4407",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+        "guid": "af00ed9d-d143-43a7-ad02-470d93768c4c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8efb93e4-751f-43d8-80ca-1b6a48d555d4",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SET_SPEEDDIAL",
+        "guid": "f27ca205-3d02-4fc4-be0d-4a0427f463ba",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNSET_SPEEDDIAL",
+        "guid": "ad1070b4-6971-4a5b-abbd-7da307591776",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SET_BOOKMARK_BAR",
+        "guid": "5b912f58-b027-4c50-8a14-4a867b8edb4d",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNSET_BOOKMARK_BAR",
+        "guid": "b4095e7d-aa19-4591-886c-3ce3d2a91333",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_MOVE_TO_BOOKMARK_BAR",
+        "guid": "78c6da9f-53f4-4c36-8bc5-d43e523102c0",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "a125e566-3a70-4a95-b043-e98ccee7f9b6",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK",
+        "guid": "655e8a35-3335-44f1-81b0-07186b40f9e1",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_BOOKMARK_ALL",
+        "guid": "12452aac-8a6d-4405-9e30-d597083153b9",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "37b977ff-2077-40d2-9460-9df6d4f7169d",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_ITEM",
+        "guid": "2440285c-b606-4049-9c04-5bbf6dac2455",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_FOLDER",
+        "guid": "20095949-ad32-48f9-953d-02a6cbc3b784",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_SEPARATOR",
+        "guid": "cb14f33f-7c49-4f5d-a876-7f3f25cab5a4",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "db530e5b-b526-4f72-b5f6-61e569920906",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "b7833df2-67f6-4dc9-bc3a-10f5d6c44ab7",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "60e3b12b-7c59-4f34-aa75-0d9b4d9ca800",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUT",
+        "guid": "f0b5d894-9709-4a4d-b334-1493028a75db",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "0b722405-d96d-409e-b59f-e8b803d50a01",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "fe2d62dd-1b40-4089-9442-61a8454315ed",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "6e3f37db-1d24-4755-9a4a-2ac35c0518ba",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "a19e9b00-4b04-485d-aa23-1c0dfbe23b28",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "c8c498df-5baa-458b-b7db-59f59ac14e9a",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EMPTY_TRASH",
+        "guid": "0760c344-bd79-4909-85ed-5626741f0139",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "802d14ed-214a-427a-bcc3-0877c90805a8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPAND_ALL",
+        "guid": "9d53d841-aac5-4dbd-b1d4-fbafba1b16f1",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COLLAPSE_ALL",
+        "guid": "d4dd6ba2-eced-419a-964e-8f648994fd91",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "f9650dea-3b91-4908-965b-2f34e0a5b46f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SETTINGS",
+        "guid": "3c7d6810-3136-4403-8249-a744d26f7718",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_IMPORT",
+            "guid": "bb47ad69-e43a-427c-a978-396a19de5627",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "e555d20e-af80-433b-9853-7837a92e4f1f",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_CONTAINER_SEARCH",
+            "guid": "05485307-09e3-45f2-b1c2-c74e83008bba",
+            "type": "container",
+            "mode": "inline"
+          }
+        ]
+      },
+      {
+        "action": "",
+        "guid": "3be40622-5d96-410d-a617-8e88d31b944f",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "4840200f-1625-4050-b024-6e21a44ae1ee",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "noteslist",
+    "guid": "3d59517f-8b37-40ec-8a1b-a78bf5460ea3",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_ADDRESS",
+        "guid": "3801197d-906a-472c-8e9d-482308c411c8",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0fa5340c-7814-4138-ba4c-c807219e844f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_FROM_SELECTION",
+        "guid": "ab68089e-2c74-42b2-a924-2efd642db6aa",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0a31f2fb-d221-4c09-a213-d4f1be538bf4",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_ITEM",
+        "guid": "4ec5f025-7a7f-4c9c-9993-fd6d12ee1f39",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_FOLDER",
+        "guid": "f91f2aed-ebe5-424b-aa53-881e1c4972ec",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_SEPARATOR",
+        "guid": "ba7e9822-109d-43d9-bd4c-c8bb9d74bb61",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "691948d2-8561-4b24-97a9-2cab730d8fde",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EDIT",
+        "guid": "47399948-67fd-4551-a441-f08eb2c98f53",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "521f3c5c-348b-42e3-8085-500b55bcad92",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "13ce54e3-f9f5-4bc7-802f-1d7ef3f184f8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CUT",
+        "guid": "066307bb-2f30-48c8-b313-28b24f191a21",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "afd47ee3-5725-43c9-bae7-b9e2c7666762",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_PASTE",
+        "guid": "09b35c0f-5ad9-4a03-8925-0e23d3f4f81a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "7baa2eda-53d5-479c-9f1c-097c28dd9016",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "fbc9f1ea-b8a6-4861-b838-b5f9e9d5ded7",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d505913a-d1da-4a1d-92e2-e846984d446c",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EMPTY_TRASH",
+        "guid": "e39869d8-d5c8-4558-96c5-ea3f21e75370",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "ac668227-b496-4a24-9d9a-bce77e40be81",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPAND_ALL",
+        "guid": "890e429b-9d69-4015-8dd2-da6e88e03bf8",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COLLAPSE_ALL",
+        "guid": "42e606b0-783c-4a00-bc56-9fb0fa4a2849",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0ded75d2-9a1e-4242-ab7e-0b1ccf1fc708",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SETTINGS",
+        "guid": "aec4a54b-14b5-4d39-b11b-380a8a45e813",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_CONTAINER_SEARCH",
+            "guid": "e7be92ee-28a9-4139-b13b-87a250feea5c",
+            "type": "container",
+            "mode": "inline"
+          }
+        ]
+      },
+      {
+        "action": "",
+        "guid": "22f62c58-ab9e-467f-9931-c4ff954a2da7",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "c75a28fd-dcb3-4d17-b0bd-de5f5c26a831",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "historylist",
+    "guid": "6e30a37b-8af9-4bca-82e8-74f59515fc24",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_TAB",
+        "guid": "5259055d-4aee-4ebe-90a5-2953a214c715",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+        "guid": "9304cca1-2e78-403f-aff8-10a9335c6bce",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_TAB",
+        "guid": "a742386f-c6e8-42c0-a786-bc331573186c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "7a47e3fc-2ff5-48b6-8600-823ce5581b34",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+        "guid": "63b135c1-91ca-4193-a6d7-02c90e1963b0",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+        "guid": "2ec46ef9-b4c9-4737-ae91-f9bced0ca74c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8bb6a804-e740-4533-821e-72c833bebd36",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_FILTER_BY",
+        "guid": "b7ae380a-d196-426e-8195-0f19fb9a69fa",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "c2d7026d-4d85-40ec-ac88-95c1baa105f6",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "7d5ad0c5-2c75-4ac7-bc1d-fcdb1e2821d1",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e123353f-721c-4b9c-a960-d4164d6e514f",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SAVE",
+        "guid": "dee2078f-58fa-4909-a298-055bd7abe684",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "80e80127-dd5a-4cb7-b1c6-c7d916441ce8",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "24d385f2-9f58-4a53-8231-fa4d5d0823e5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d95a494f-c656-4dd2-98d5-50d61e1079be",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPAND_ALL",
+        "guid": "6dcfd48f-8e54-4717-b276-6265c4381d7d",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COLLAPSE_ALL",
+        "guid": "80a5969c-6d5b-42af-84bf-f68d8135bf1f",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "downloadlist",
+    "guid": "ecaf7f47-8ab2-4d4f-af1b-0d567724b5ca",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_OPEN_FILE",
+        "guid": "e3cfe890-1271-4174-b8d9-897ccaf57511",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_OPEN_IN",
+        "guid": "bedb8177-5158-458d-a252-b7c00bdc0768",
+        "type": "folder",
+        "children": [
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_TAB",
+            "guid": "41ce4dac-e42f-414d-b4a8-4e883eec51e9",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_BACKGROUND_TAB",
+            "guid": "3d1904f1-2400-4e2c-8092-b1b033b5633e",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_TAB",
+            "guid": "acc9425b-a002-47d4-98a5-1edc4d555fe8",
+            "type": "command"
+          },
+          {
+            "action": "",
+            "guid": "8facb493-0284-4703-86c2-d83ce64e95ed",
+            "type": "separator"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_NEW_WINDOW",
+            "guid": "e18f83eb-dd4a-404e-8543-22731bf2b296",
+            "type": "command"
+          },
+          {
+            "action": "CONTEXT_OPEN_IN_PRIVATE_WINDOW",
+            "guid": "3f6bbac6-5506-4584-b4a5-7d2a73c36870",
+            "type": "command"
+          }
+        ]
+      },
+      {
+        "action": "CONTEXT_FILEMANAGER",
+        "guid": "412edbb8-2c3c-4f62-a7c9-606dfba5a95e",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "417aec80-a969-4d8b-870a-a10829a26ed6",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_COPY_ADDRESS",
+        "guid": "c01b7bfd-1984-4de9-91d4-72b741680ba9",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COPY_PATH",
+        "guid": "cf8da479-ef50-4897-aeae-d42a28fbe955",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5e452975-fbf0-4c6e-8a6d-04ffa3492b15",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_RESTART",
+        "guid": "63e1ba31-8b66-4357-b197-1ea84c0954ab",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_STOP",
+        "guid": "85e50c81-bb02-4835-99af-b9a197bb10cb",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_RESUME",
+        "guid": "646cc8d9-9e7e-4ee6-a1c1-4fa672724cad",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d4a3d730-1356-439b-834e-ffadb283d34d",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_REMOVE",
+        "guid": "d7c126a4-67cf-484c-8be3-7fb2e0a52615",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_REMOVE_ALL_FINISHED",
+        "guid": "834e5049-0171-4281-95e5-0c72544314d5",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "windowlist",
+    "guid": "2c6dcba9-a8c8-4e99-b155-7d6ede77bda7",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_NEW",
+        "guid": "cf45a516-e30b-4aa7-a814-9c15d9cc1ac4",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_STACK",
+        "guid": "41b29a55-7e70-4ede-b976-a979bc1ed465",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_NEW_STACK_FOR_HOST",
+        "guid": "e41086b4-0c67-4c88-93f2-38ec5d3a7826",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_CLONE",
+        "guid": "55becd3c-8f98-45dd-9a17-eab530871a7c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "2dff6bb8-c64f-48f7-996f-197b4441ced1",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_RELOAD",
+        "guid": "9df081bd-516d-4706-96eb-ec193e9b7e48",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_HIBERNATE_TAB",
+        "guid": "3ae43816-ba3a-4414-9373-0948ccc99ed0",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "90f090fd-75f4-4c10-9dc3-b8e8b75b5321",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_PIN",
+        "guid": "527c22b8-185a-4661-8219-3a822a2a70f9",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNPIN",
+        "guid": "e51b3e8c-718d-4c95-a286-96854f0f4088",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_TILE_TABS",
+        "guid": "29b24c8f-6164-444f-9e02-be1e3bfabb93",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNTILE_TABS",
+        "guid": "890a6a1d-9fcb-4758-b3ef-d3fc3975d6a7",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5422095e-0e87-48f4-8547-56496a08b0fb",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_TABSTACK_UNGROUP",
+        "guid": "0d44f9bf-c795-4549-b79a-aea98df8e8ad",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e22e263b-eb54-44b9-a7c4-0ffc038f317d",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_MUTE",
+        "guid": "1165e3c6-dc4e-4f6c-9d8d-8c0b861e9afe",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_MUTE_OTHER",
+        "guid": "3838d5b0-3372-4ad9-ac6b-11304efc5bc9",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_UNMUTE",
+        "guid": "a50e7b04-4b7a-403d-97de-d8492ffe3242",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "822497c1-f7bf-4533-96ac-4d47ef4176a7",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_RENAME",
+        "guid": "c8032d70-d061-4ab6-ad18-8f17c206e474",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "87c83733-6b81-45ba-8662-3bb14ea0278b",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_COPY",
+        "guid": "099e30ff-767c-4453-afd0-526a9edd8e34",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "93391e46-59e9-43c3-968c-c461a964fed7",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_SAVE",
+        "guid": "58937192-786e-4c56-8c55-1a830e736a58",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_SAVE_ALL",
+        "guid": "86efa8fb-35fa-4104-837a-376e3a2b8f4b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d6a8f08e-d770-436c-9bab-52d978b189ed",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPORT",
+        "guid": "e6603d58-e8ab-4ccd-948d-9521d728bab8",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_EXPORT_ALL",
+        "guid": "7571577c-23e3-4f32-b2a2-4e88d9efbc9a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "79350f46-35a2-4fd7-802b-343c17b3e5d9",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "0523fa57-4c20-404e-b249-e394e92172fe",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8b6ebc29-fb13-4d00-94c6-60bf4d08c51a",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EMPTY_TRASH",
+        "guid": "640c0fb5-6134-44db-a251-7146355f7d12",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_REOPEN",
+        "guid": "2aef5967-dd46-42d7-bf7a-aef904aa0e78",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e0d85f36-942f-46bc-a24a-90f2cab12c9e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EXPAND_ALL",
+        "guid": "b71bd3d3-b8de-49a7-8e66-03d2ef8dfc7e",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_COLLAPSE_ALL",
+        "guid": "80230c1c-e143-4d5f-9ba7-00a6b6ff1732",
+        "type": "command"
+      }
+    ]
+  },
+  {
+    "action": "contactlist",
+    "guid": "e5087e3b-fde4-406b-bca4-7ae783aa5d13",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "CONTEXT_COMPOSE_MAIL",
+        "guid": "c242618e-d016-4211-aec0-917ed31b76aa",
+        "type": "command"
+      },
+      {
+        "action": "CONTEXT_VIEW_ALL_MESSAGES",
+        "guid": "2308f8b6-40e3-4c9e-94fb-32b301033a7f",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "562f231d-9f89-45a4-8e12-ec8df2b7d70b",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_NEW_ITEM",
+        "guid": "96a5f2ee-f260-4a62-bff9-2ace1500ac6b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "44f246ce-b4d7-47a8-96c6-c73c48e9261e",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_EDIT",
+        "guid": "51b81581-554b-4cf9-8b0b-e4b0948a1a04",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "317dc0cd-a23b-4fb1-86ed-642636743d91",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_DELETE",
+        "guid": "f11c9f53-c166-4f71-9a8e-b45fb108be92",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "b38d155c-a46b-4943-acc7-a3e3eb24ebed",
+        "type": "separator"
+      },
+      {
+        "action": "CONTEXT_CONTAINER_DEFAULT_ACTION",
+        "guid": "87744d0c-f70f-4ac6-ac1e-a42f90f9d20e",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "link",
+    "guid": "cd6a2187-ee49-4d0d-9c04-23288de13ffd",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_OPEN_IN_NEW_TAB",
+        "guid": "b2be0edf-7261-4a50-a489-25e8caef1611",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IN_NEW_BACKGROUND_TAB",
+        "guid": "193aec75-0320-4d56-9e8e-bbd6b6d9cfb1",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IN_TAB",
+        "guid": "75b004b3-5ef1-41b7-94aa-efd70fdb71ad",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "97608ec1-afe5-4273-8a87-8ab5b04c1314",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IN_NEW_WINDOW",
+        "guid": "b55b299e-4420-411a-ac5c-76107b68b1d1",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IN_PRIVATE_WINDOW",
+        "guid": "72cffdb3-0ae4-43b8-bc8b-eb7976c3bd07",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "d8397b57-7f0e-4016-9097-6627a2ec75c4",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_OPEN_IN_PWA",
+        "guid": "9b488a10-803d-4b8c-9dc1-119c982f466b",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_OPEN_IN_PROFILE",
+        "guid": "ac558888-77ac-4d6d-b556-e294b672444c",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "667e2fc5-f481-4d0f-84db-1e943d911162",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SEND_TO_DEVICES",
+        "guid": "d9ffc5a1-9929-4051-8b16-c4a0c8b9d839",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "8bc05a9d-f842-4a39-a1c1-47bc7d1fb45c",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_ADD_LINK_TO_BOOKMARKS",
+        "guid": "ae10c55e-3d1b-4815-9123-2c93e3bd2a91",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_ADD_LINK_TO_WEBPANEL",
+        "guid": "7ceb8016-9645-446e-8320-eb1e184e4f6c",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_SEND_LINK_BY_MAIL",
+        "guid": "053371e2-71c6-404f-a6b8-42ca034ff6f1",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "f0f0824b-31d1-4269-9183-0e846d248a28",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SAVE_LINK",
+        "guid": "605667d6-7c72-495a-850e-917952c177a7",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY_LINK_ADDRESS",
+        "guid": "9539a524-6782-4254-9fbc-8a707f07b3d9",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY_LINK_TEXT",
+        "guid": "c95ace63-f75e-4c75-ae23-196bc53411cd",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e46871ea-de70-4505-b3be-5ece47563a29",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_AV",
+        "guid": "1cdae91b-23b0-4231-b18f-f7eaba418f4c",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "ccc86004-df3a-41db-9174-3c2045fccf37",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_LINK_SELECTION",
+        "guid": "4cf73946-f64c-4837-9c0d-f012b4e923aa",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_LINKED_IMAGE",
+        "guid": "dff21ebe-7388-4bf4-9465-bf0ef16ba27d",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "aa2c195a-fc65-4644-9bc2-af9049874987",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "cad13a12-b936-4a6a-8034-15c2ffba2657",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "a02c7a3d-cc29-4de9-bd8a-2602ae95bef8",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "ab6b5f69-61dc-44c6-bf28-befa3ba59e1b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "edcb1767-594d-424e-a084-c1f97ea35e6f",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "ef0e37a2-fbd9-420d-aacd-5fd04dac175d",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "page",
+    "guid": "e52cbfab-f49e-441f-a000-78018049a35c",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_BACK",
+        "guid": "2ec5eb32-c35d-490b-84fa-37d4fa7926dd",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_FORWARD",
+        "guid": "c2142d2a-f8d2-4a58-8cd9-cc2e5312ed18",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_RELOAD",
+        "guid": "32668d50-be62-480b-b9c7-c3a29ca28c96",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "9e0cf871-90f4-4b8d-8c88-873fcc7570cb",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_ADD_BOOKMARK",
+        "guid": "553b100f-e049-4798-acf0-326f7e6fd13c",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_ADD_TO_WEBPANEL",
+        "guid": "e1c1280c-3f31-405d-b646-4f931b85bfe1",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_SEND_BY_MAIL",
+        "guid": "7ee69058-ee1c-43d3-8da1-93bc01740027",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "7d2c03f7-4d0e-4ebf-be8c-b486aa42a1b9",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SAVE",
+        "guid": "ad2f672a-3da3-408c-8845-ddd8a6827400",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PRINT",
+        "guid": "c1da6123-0765-4064-b379-adc5e7e068c5",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_CAST",
+        "guid": "1edf9bfc-73e5-42fe-9ef7-3fc9966aaa0b",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY_ADDRESS",
+        "guid": "f8bacee7-0e4b-4ac3-ba4e-318d2617be0b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e9bbde86-9621-4f91-929f-82159cce7503",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SEND_TO_DEVICES",
+        "guid": "55b2c0fd-047c-49fd-9b80-dd9fcfe620d1",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "DOCUMENT_QR_CODE",
+        "guid": "c54c84bc-5d50-451d-aea2-2042d6c4e4d4",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "44819d72-b0cd-44e7-af68-7b412a540de7",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "418463dd-b73c-4803-abda-c15c5b7df757",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "836c008e-75b9-4013-a13f-318a95ef576f",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_PLUGIN_ROTATION",
+        "guid": "58154625-2530-497f-9a4f-3a332007a677",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "94266ac9-bfb3-4885-a84c-7d79770a0e4d",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "b890ee39-931d-4b11-897f-a13c2ff819c2",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "78980f1d-3ee0-4101-b06a-0afbf80501b4",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "739ec2e0-27d4-4e49-8058-d4e9adcbe669",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "image",
+    "guid": "04cd3b47-dfb1-4cea-93de-bd248eeaf74f",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_OPEN_IMAGE_IN_NEW_TAB",
+        "guid": "a707ca7c-b1e5-4ee9-9035-f91d0b87fc09",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IMAGE_IN_NEW_BACKGROUND_TAB",
+        "guid": "ffd7c14f-0577-4c17-9551-e64d5873d18e",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IMAGE_IN_TAB",
+        "guid": "0431e97d-58b4-4f39-be4f-2d5edd83735d",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "2bb84a23-c978-4d60-a2fa-e9442c759871",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IMAGE_IN_NEW_WINDOW",
+        "guid": "fcbe3717-8ac6-43e1-93f4-5daea009db81",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_OPEN_IMAGE_IN_PRIVATE_WINDOW",
+        "guid": "6a66273f-eca5-431d-b06b-721a437e2bd7",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8aa19506-bb32-4032-9591-5ad7e75ed3f5",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_OPEN_IMAGE_IN_PROFILE",
+        "guid": "cebfa999-516b-4a67-bfbe-c285f5a15a4c",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "1d776f17-f606-4d7e-80ab-3299e21be580",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SAVE_IMAGE",
+        "guid": "c29eda03-8f5e-4292-8130-d14cdb9c19aa",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY_IMAGE_ADDRESS",
+        "guid": "b9c2704d-041f-42f2-b732-adffc1c91190",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY_IMAGE",
+        "guid": "c6e74440-dcea-4dd1-ac0f-2a1cb089c9dd",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "37247be1-1ddb-4c05-971e-556519b266dc",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SHOW_IMAGE_PROPERTIES",
+        "guid": "dce01a04-0a0e-468d-ad0e-80ef5a26f457",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_USE_IMAGE_AS_STARTPAGE_BACKGROUND",
+        "guid": "3f1d953d-ccd6-438d-bd69-baa80cd1e055",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_RELOAD_IMAGE",
+        "guid": "7edbb43d-6295-44a5-a444-58e1465cfa2f",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "ccfda759-cddf-4318-83fc-eaec9b5b7214",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_QR_CODE",
+        "guid": "2a85e0f5-2396-480b-a690-431b256ff576",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_SEARCH_FOR IMAGE",
+        "guid": "5d1495d4-14a7-4531-bc24-8422aa7e851b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "4ffd5da7-4a46-47ed-9fc4-64cb5c585ec8",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "9f88c725-00e6-4790-9131-0109163ac586",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "d0c6c0f1-bb66-483a-a09d-e80d2ed70f09",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "3604feb0-4066-418e-a2c5-b1d6b9205ca5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "dd5b9747-9fd9-4a43-8d41-2edbd35aa0c6",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "928280b1-ea28-418c-98d9-5d83bba47593",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "docedit",
+    "guid": "2ce17a59-afd4-4efb-a3f6-21aa2ac3daa3",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_SUGGEST_PASSWORD",
+        "guid": "6e9a7aef-f1a6-4bd7-a920-8996bd761124",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_SHOW_PASSWORDS",
+        "guid": "0376e038-9ba2-4107-9287-f4fdee3567e3",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "550cccca-377a-4ac3-8d16-2e435886a378",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPELLCHECK",
+        "guid": "70eaed0e-55be-4079-8506-e646e6d1f11e",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "aa455be6-6d00-43d9-a905-a331edaed16d",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_LOOK_UP",
+        "guid": "5f49c933-8a1c-4c0f-9ecb-8c86efc8f07a",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "45c44234-a351-43d4-a169-51fe0d158d23",
+        "type": "separator"
+      },
+
+      {
+        "action": "DOCUMENT_EMOJI",
+        "guid": "9710599f-1c23-4d07-b75f-3d29af16f0f4",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "f5d3e1c2-1683-47f8-bb95-eefc208e940b",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_UNDO",
+        "guid": "cd8e5891-e59b-4d89-98b3-01d7e8578286",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_REDO",
+        "guid": "a2bf9bd0-b6c3-45f1-bff0-8d1953d834da",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "a09ad39a-2838-4595-b4f4-48d668b57b90",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CUT",
+        "guid": "cc6f3e44-8f51-4997-8077-a48fb5e6dc6e",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY",
+        "guid": "459c235a-ea5c-4d5c-82a3-6b922a57a720",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PASTE",
+        "guid": "4cda4aa5-f0cb-4437-b27f-99e3809aa515",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PASTE_AS_PLAIN_TEXT",
+        "guid": "a84f63b5-dc0a-45e8-a3a0-715afd635389",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "2d16f4c2-6f9e-403a-aa90-b8468f078fa6",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SELECT_ALL",
+        "guid": "3f1b9e53-a9f4-485f-b3bd-d630b2b79175",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "f4379e99-ef5c-47df-ae25-a736fbc7b77e",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_GOTO_URL",
+        "guid": "1a0c1bf9-44d0-4330-9a2e-f76ed8e96674",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "211f61c8-19d5-4b1e-bf28-2bbd7314d99f",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_ADD_AS_SEARCH_ENGINE",
+        "guid": "312df098-e13a-4e89-a2ea-91dae6eb82be",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "a9b467da-b23e-4028-914d-7f38a6730242",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_COPY_SELECTION_TO_NOTE",
+        "guid": "d16f7b6a-4ff8-4645-a258-a87afe31cb43",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_NOTES",
+        "guid": "ad552607-a8ec-40d4-9534-e5a677b37d56",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "6896511a-c48b-47d3-8a13-76d0d3519c6f",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPELLCHECK_OPTIONS",
+        "guid": "4efe7f48-ab13-4da0-924a-c6dbf8e26aff",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_WRITING_DIRECTION",
+        "guid": "523e24d3-5371-457f-8dae-e510dbfb89cc",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "79156a4a-85fa-4c79-8d7d-dbe43242b3d0",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SEARCH",
+        "guid": "5c79ab22-d276-4590-93e3-4d1ff983141e",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SEARCH_WITH",
+        "guid": "feb7de0b-61c8-43e2-98fe-42ee90574971",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "0329f65c-bb22-4425-a77f-3fd240824c96",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "17e1789e-40f1-46bb-afbe-d6f6ebf01f59",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "35b1dc06-f073-423d-9146-c33aa40fde76",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "26128932-fff1-4bb3-9dc0-f8f746d6483c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "797df977-fdd6-4d7e-b56a-9c4fc2571866",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "936f9d2e-f3c9-4967-8224-5f9a275406f7",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "2ad389e4-00b6-4af6-98d7-9a1142ac0e1e",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPEECH",
+        "guid": "ad1f77e8-94cb-4697-9ba3-6de234991165",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "uiedit",
+    "guid": "546b54a2-39f7-477a-8275-424c06ee005c",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_CONTAINER_SPELLCHECK",
+        "guid": "5ceb7a16-465a-4027-b7a4-2d95be19b7a7",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "996db209-e642-4e9d-b905-de91b9eeedb3",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_LOOK_UP",
+        "guid": "e5a7544c-539c-4649-b61a-03567b9d0e48",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0b4dd198-79b5-4f95-a3a6-66368262047d",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_EMOJI",
+        "guid": "e9a24fe8-df54-4a2b-bba0-88b6d828f09d",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "cf54896f-eba5-4dff-b294-e25bb36a9e37",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_UNDO",
+        "guid": "50deddb4-65af-4fe6-875a-bc7931572f72",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_REDO",
+        "guid": "4f5d5308-49f2-457a-b51d-06cd287979c5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "44d2e8b0-eec5-419d-9c5b-5a83097c1e6f",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CUT",
+        "guid": "32d053f6-d6ec-49e3-b854-4a19c37e7376",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY",
+        "guid": "0965f15f-2998-4573-9d9e-19f3639bbce5",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PASTE",
+        "guid": "c219f108-1837-4b69-97bd-b7976ecae110",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "131c86dc-078f-4cc8-ab7a-0d6f58d781fc",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SELECT_ALL",
+        "guid": "d69c1b59-8138-4ed7-aa45-19efeec18587",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5a81b2b9-a877-4a92-9ac5-3412b1599a12",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_NOTES",
+        "guid": "fa5d1439-006b-40de-adf9-9d24db6e250c",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "cbda414d-e6fe-4c46-a004-a04767541bb7",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPELLCHECK_OPTIONS",
+        "guid": "94701516-2d75-45f9-87af-0bc9202fe90f",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_WRITING_DIRECTION",
+        "guid": "381253f9-c16c-47ee-8851-757a4b724821",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "3d85279f-6271-4be6-875e-a2c88c9cf1d1",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPEECH",
+        "guid": "3c6cd009-a667-4d13-b334-fc9f24739b2f",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "urledit",
+    "guid": "d309d3df-826f-4a6e-9cc8-e4594bd17244",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_LOOK_UP",
+        "guid": "b272da08-483c-44b0-b49a-a071f2bc44a3",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "dbe2c561-d49a-4031-901d-8989dae02798",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_EMOJI",
+        "guid": "6d9bad03-b672-4604-8c1c-784c4f8fc7ce",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "29420496-e267-4618-8108-716d6d740935",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_UNDO",
+        "guid": "1a64371b-1ab0-4cfe-bdce-3aa48c37341a",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_REDO",
+        "guid": "880c6cfc-ebdf-474f-9ec8-0762e67cd240",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "05a04392-443f-4238-999b-2831f52016ca",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CUT",
+        "guid": "52a48d33-9bcf-4636-b014-1525a62d4fdb",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_COPY",
+        "guid": "295deb98-4c23-4deb-a1ad-1def82f3af2c",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PASTE",
+        "guid": "57255400-1710-499a-bd1b-d6cbfe3b74e8",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_CLIPBOARD_PASTE_AS_PLAIN_TEXT_OR_PASTE_AND_GO",
+        "guid": "ca72299e-7ccd-4599-bcc0-01523a3d26d5",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "da7f48a9-45d3-41dc-a6c4-ed3c2fb416f1",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SELECT_ALL",
+        "guid": "4f7792a2-5ebf-43ba-8e06-18bb50b67b2b",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "0645c16c-8d39-4970-80a9-969cdfd9689c",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_NOTES",
+        "guid": "c10d4122-4333-4afd-a87e-cc69ea9f2472",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "663432f3-bc0e-44e4-8635-556ed86b5e52",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CUSTOMIZE",
+        "guid": "1ad9f69c-1c32-427e-ba10-78f9091a74bc",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_SHOW_FULL_ADDRESS",
+        "guid": "996dbf54-c635-479b-b32c-1fb8325b0d80",
+        "type": "checkbox"
+      },
+      {
+        "action": "",
+        "guid": "2bbaa633-0e21-4a80-9dc7-c2b735765307",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPEECH",
+        "guid": "f6efedc2-2368-4e0c-8d98-c4f336c9de8b",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "audiovideo",
+    "guid": "4871444a-066b-4083-8085-8e53ca1cbdaf",
+    "type": "menu",
+    "role": "context",
+    "children": [
+       {
+        "action": "DOCUMENT_CONTAINER_AV",
+        "guid": "e022607b-d3ff-4a09-8dc4-574eb2c2fb5e",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "68b323d1-22ae-418d-83a2-71e659756cd9",
+        "type": "separator"
+      },
+
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "76766f42-5c9b-46eb-a1e7-b1077dec094e",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "5d1b38ea-720d-4e45-8f96-59e4f5c77437",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "9a4553fa-24d7-47f8-8c61-3bfaf936f32d",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "971945e6-700b-4fd9-b74f-b1ebcd3c37c4",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "de20635c-0372-41f3-b012-2a4ba614c254",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  },
+  {
+    "action": "selection",
+    "guid": "4315795b-5369-4eb5-a683-89c555f9b7d0",
+    "type": "menu",
+    "role": "context",
+    "children": [
+      {
+        "action": "DOCUMENT_LOOK_UP",
+        "guid": "8d80809c-c24f-4f33-a5d5-0118c5e50a96",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "e121c82c-7aba-4cca-8c2f-c8198c2b706b",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_COPY",
+        "guid": "3edd1447-fdd6-439a-b2ca-b736225bf578",
+        "type": "command"
+      },
+      {
+        "action": "COMMAND_COPY_SELECTION_TO_NOTE",
+        "guid": "271b97ac-33cb-450d-8969-2d8222a3a882",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "1d8c4bcf-2e9f-4ca9-9e58-23e5850dcea3",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_PRINT",
+        "guid": "72e59baf-7130-476b-b7ef-9607da1ce779",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "5d483908-67ce-4f7a-b631-3ddbfe8a2ebf",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_GOTO_URL",
+        "guid": "f4a1cb99-2b10-430a-bb3c-d9286035c187",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "94b7fd1e-bdf9-426f-b852-85d8ea969b56",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SEARCH",
+        "guid": "934a1917-3b05-4750-9869-411594d5fbd2",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SEARCH_WITH",
+        "guid": "a019a7a8-9485-4765-8629-57df88354b72",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "d62a5458-7a47-432e-9331-3fa90482aae9",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_EXTENSIONS",
+        "guid": "82e9c875-a31e-474c-aedf-102f9017b982",
+        "type": "container",
+        "mode": "inline"
+      },
+      {
+        "action": "",
+        "guid": "bf47c305-4772-4686-b0fe-feba03f98291",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_SEND_BY_MAIL",
+        "guid": "25fe4d97-a4a7-4387-ac98-cb438d405099",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_ADD_TO_CALENDAR",
+        "guid": "fd1a5e88-89e8-4514-9b3d-fcdb4c3c584c",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "8b65b2e9-c08b-4292-a738-c807093de631",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_FULLSCREEN",
+        "guid": "e6bb06e0-d922-4544-82a8-45e68ea40bcd",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "84f53a20-88b1-4d7b-bd61-21722a21a792",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_DEVELOPER_TOOLS",
+        "guid": "f59ec423-d97e-4234-9e25-8f19812ba09a",
+        "type": "container",
+        "mode": "folder"
+      },
+      {
+        "action": "",
+        "guid": "ce020c1b-efba-4d98-ad15-02c213e93b14",
+        "type": "separator"
+      },
+      {
+        "action": "DOCUMENT_CONTAINER_SPEECH",
+        "guid": "81698b59-5300-4658-a1e3-fc71c9fff661",
+        "type": "container",
+        "mode": "folder"
+      }
+    ]
+  }
+]
