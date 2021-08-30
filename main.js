@@ -229,10 +229,10 @@ const Menu = {
         },
         filterMenuShow: function () {
             return this.filterMenu.length ? true : false;
-        } 
+        }
     },
     methods: {
-        importFile(){
+        importFile() {
             document.querySelector("#import").click();
         },
         loadJson(e) {
@@ -318,7 +318,7 @@ const messages = {
     'en': {
         select_a_menu: 'Select a Menu',
         select_a_cmd: 'Select a Command',
-        import:'Import',
+        import: 'Import',
         vivaldi: "Vivaldi Button Menu",
         menubar: "Horizontal Menu",
         audiovideo: "Audio and Video",
@@ -353,7 +353,7 @@ const messages = {
         historylist: "History List",
         noteslist: "Notes List",
         uiedit: "Text Field",
-        panelbarregitem:"panelbarregitem",
+        panelbarregitem: "panelbarregitem",
         COMMAND_OPEN_LINK: "Open Link",
         CONTEXT_BOOKMARK: "Add Active Tab",
         CONTEXT_CONTAINER_PWA: "All Progressive Web Apps",
@@ -561,7 +561,7 @@ const messages = {
         DOCUMENT_CUSTOMIZE: "Customize...",
         DOCUMENT_SHOW_FULL_ADDRESS: "Show Full Address",
         DOCUMENT_ADD_TO_CALENDAR: "Add as Calendar Event",
-        DOCUMENT_INSPECT:"Inspect",
+        DOCUMENT_INSPECT: "Inspect",
         COMMAND_OPEN_LINK: "Open Link",
         CONTAINER_CLOSED_TAB: "All Closed Tabs",
         CONTAINER_PINNED_TAB: "All Pinned Tabs",
@@ -642,12 +642,12 @@ const messages = {
         COMMAND_IMPORT_CALENDAR: "Import Calendar",
         COMMAND_IMPORT_NOTES: "Import Notes",
         COMMAND_IMPORT_DATA: "Import from Applications or Files",
-        MENU_PANEL:"MENU_PANEL"
+        MENU_PANEL: "MENU_PANEL"
     },
     'zh': {
         select_a_menu: '选择一个菜单',
         select_a_cmd: '选择一个命令',
-        import:'导入',
+        import: '导入',
         vivaldi: "Vivaldi 按钮菜单",
         menubar: "水平式",
         image: "图片",

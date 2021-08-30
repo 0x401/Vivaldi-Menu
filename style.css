@@ -14,6 +14,9 @@
 }
 body{
     font-family: 'Segoe UI','SF',  sans-serif;
+    line-height: 1;
+    width: 100vw;
+    overflow-x: hidden;
 }
 button,
 input {
@@ -65,7 +68,7 @@ button:hover {
 
 label {
     display: inline-flex;
-    vertical-align: center;
+    align-items: center;
     gap: .5rem;
 }
 
@@ -113,6 +116,7 @@ section {
     flex-wrap: wrap;
 }
 .menu {
+    padding: 4px 0;
     border: 1px solid rgb(218, 220, 224);
     width: 300px;
     box-shadow: 2px 2px 2px 0px rgba(61, 61, 61, 0.63);
