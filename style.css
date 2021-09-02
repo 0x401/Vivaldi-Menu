@@ -179,3 +179,8 @@ button {
 .separator:hover {
     background-color: rgb(218, 220, 224);
 }
+@media(max-width: 800px){
+    #menu{
+        width:unset;
+    }
+}
