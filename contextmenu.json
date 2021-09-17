@@ -2639,6 +2639,11 @@
         "type": "command"
       },
       {
+        "action": "COMMAND_TRANSLATE_SELECTION",
+        "guid": "7a6aa526-4a57-432f-8360-3f42716e9573",
+        "type": "command"
+      },
+      {
         "action": "DOCUMENT_CONTAINER_NOTES",
         "guid": "ad552607-a8ec-40d4-9534-e5a677b37d56",
         "type": "container",
@@ -2787,6 +2792,11 @@
       {
         "action": "DOCUMENT_PASTE",
         "guid": "c219f108-1837-4b69-97bd-b7976ecae110",
+        "type": "command"
+      },
+      {
+        "action": "DOCUMENT_PASTE_AS_PLAIN_TEXT",
+        "guid": "63a5fafe-34ac-422b-91b4-39a17f5cdff5",
         "type": "command"
       },
       {
@@ -3021,6 +3031,16 @@
       {
         "action": "COMMAND_COPY_SELECTION_TO_NOTE",
         "guid": "271b97ac-33cb-450d-8969-2d8222a3a882",
+        "type": "command"
+      },
+      {
+        "action": "",
+        "guid": "bdcba2dd-5029-4380-957e-bd346a2842e9",
+        "type": "separator"
+      },
+      {
+        "action": "COMMAND_TRANSLATE_SELECTION",
+        "guid": "8e24ef93-e10f-442e-b299-4e7f67bc9a5e",
         "type": "command"
       },
       {

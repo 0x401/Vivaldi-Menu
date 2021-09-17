@@ -25,6 +25,7 @@ const Menu = {
                 "COMMAND_MAIL_REPLY_ALL",
                 "COMMAND_TAB_VIEW_PAGE_SOURCE",
                 "COMMAND_TOGGLE_STARTPAGE_NAVIGATION",
+                "COMMAND_TRANSLATE_SELECTION",
                 "CONTEXT_ADD_BOOKMARK_TO_SPEEDDIAL",
                 "CONTEXT_ADD_FLAG",
                 "CONTEXT_ADD_FOLDER_TO_SPEEDDIAL",
@@ -642,6 +643,7 @@ const messages = {
         COMMAND_IMPORT_CALENDAR: "Import Calendar",
         COMMAND_IMPORT_NOTES: "Import Notes",
         COMMAND_IMPORT_DATA: "Import from Applications or Files",
+        COMMAND_TRANSLATE_SELECTION:"Translate Selected Text",
         MENU_PANEL: "MENU_PANEL"
     },
     'zh': {
@@ -882,6 +884,7 @@ const messages = {
         DOCUMENT_CUSTOMIZE: "自定义",
         DOCUMENT_SHOW_FULL_ADDRESS: "显示完整地址",
         DOCUMENT_ADD_TO_CALENDAR: "添加为日历事件",
+        COMMAND_TRANSLATE_SELECTION:"翻译选中文本"
     }
 };
 const i18n = VueI18n.createI18n({
