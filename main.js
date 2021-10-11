@@ -23,6 +23,7 @@ const Menu = {
                 "COMMAND_MAIL_MARK_UNREAD",
                 "COMMAND_MAIL_REPLY",
                 "COMMAND_MAIL_REPLY_ALL",
+                "COMMAND_SAVE_PAGE",
                 "COMMAND_TAB_VIEW_PAGE_SOURCE",
                 "COMMAND_TOGGLE_STARTPAGE_NAVIGATION",
                 "COMMAND_TRANSLATE_SELECTION",
@@ -330,6 +331,8 @@ const messages = {
         docedit: "Text Field",
         contactlist: "Contacts",
         mailsearchlist: "Message List",
+        mailcontent:"Message Content",
+        mailheader:"Message Header",
         speeddialitem: "Speed Dial Button",
         startpage: "Start Page",
         startpagebar: "Start Page Bar",
@@ -644,6 +647,7 @@ const messages = {
         COMMAND_IMPORT_NOTES: "Import Notes",
         COMMAND_IMPORT_DATA: "Import from Applications or Files",
         COMMAND_TRANSLATE_SELECTION:"Translate Selected Text",
+        COMMAND_SAVE_PAGE:"Save As...",
         MENU_PANEL: "MENU_PANEL"
     },
     'zh': {
@@ -659,6 +663,7 @@ const messages = {
         audiovideo: "音视频",
         page: "页面",
         mailsearchlist: "消息列表",
+        mailcontent:"Message Content",
         contactlist: "联系人",
         startpage: "开始页",
         speeddialitem: "快速拨号按钮",
